@@ -48,8 +48,8 @@ SEI follows a small set of non-negotiable principles:
 
 You can read the full vision here:
 
-* 📖 [Manifesto](docs/manifesto.md)
-* 🎨 [Visual Rules](docs/rules.md)
+* [Manifesto](docs/manifesto.md)
+* [Visual Rules](docs/rules.md)
 
 ---
 
@@ -63,8 +63,8 @@ You can read the full vision here:
 
 This repository contains the **complete and up-to-date icon set**.
 
-➡️ See the full list of available icons here:
-📂 [Icon List](docs/icon-list.md)
+See the full list of available icons here:
+[Icon List](docs/icon-list.md)
 
 ---
 
@@ -99,6 +99,9 @@ Framework-specific adapters may exist, but the icon system itself remains neutra
 ## Repository Structure
 
 ```
+assets/
+ ├─ icons-preview-placeholder.png
+ └─ banner-placeholder.png
 icons/
  ├─ outline/
  └─ filled/
@@ -109,6 +112,9 @@ figma/
  ├─ rules.md
  └─ icon-list.md
 README.md
+CODE_OF_CONDCUT.md
+CONTRIBUTING.md
+LICENSE
 ```
 
 ---

@@ -1,0 +1,53 @@
+# Sxnnyside Eloquent Icons (SEI) License
+
+Copyright (c) 2026 Sxnnyside Project
+
+## Overview
+
+Sxnnyside Eloquent Icons (SEI) is an open-source icon system created and maintained by **Sxnnyside Project**. The goal of SEI is to provide a consistent, expressive, and evolving set of icons that can be used across platforms (Flutter, SwiftUI, Compose, React, Web, etc.) while preserving a strong visual identity.
+
+This license is intentionally **not a standard OSI license**. It is designed to balance openness, attribution, and brand integrity.
+
+## Permissions
+
+You are permitted to:
+
+* Use SEI icons in **personal, educational, and commercial projects**.
+* Modify icons for your own projects.
+* Bundle SEI icons within applications, libraries, or products.
+* Use SEI across any platform or framework.
+
+## Conditions
+
+* **Attribution is required** in documentation, credits, or an about section. Attribution must include:
+  "Icons by Sxnnyside Project — Sxnnyside Eloquent Icons (SEI)"
+* Modified icons **must not** be redistributed under the same name without clear notice of modification.
+* You may not imply endorsement by Sxnnyside Project.
+
+## Restrictions
+
+You may NOT:
+
+* Sell SEI icons as a standalone product or icon pack.
+* Rebrand, rename, or redistribute SEI as your own icon system.
+* Use SEI or the Sxnnyside name/logo to create a competing icon library.
+* Use SEI assets in NFTs, AI training datasets, or generative resale systems.
+
+## Contributions
+
+By contributing to SEI, you agree that:
+
+* Your contributions become part of SEI and are licensed under this same license.
+* You grant Sxnnyside Project the right to use, modify, and distribute your contributions.
+
+## Trademarks
+
+"Sxnnyside", "Sxnnyside Project", and "Sxnnyside Eloquent Icons" are trademarks of Sxnnyside Project. This license does not grant permission to use these trademarks except for attribution purposes.
+
+## No Warranty
+
+SEI is provided "as is", without warranty of any kind. Sxnnyside Project is not liable for any damages arising from the use of this project.
+
+---
+
+If you have questions about usage, licensing, or permissions, please open a discussion or contact Sxnnyside Project directly.
