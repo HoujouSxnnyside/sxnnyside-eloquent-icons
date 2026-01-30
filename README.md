@@ -1,7 +1,7 @@
 <!-- Banner Placeholder -->
 
 <p align="center">
-  <img src="assets/banner-placeholder.png" alt="Sxnnyside Eloquent Icons Banner" />
+  <img src="assets/Sxnnyside Eloquent Icons.png" alt="Sxnnyside Eloquent Icons Banner" />
 </p>
 
 <h1 align="center">Sxnnyside Eloquent Icons (SEI)</h1>
