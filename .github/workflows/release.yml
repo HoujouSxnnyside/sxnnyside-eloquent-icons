@@ -1,0 +1,47 @@
+name: Release
+
+# Triggered by pushing a version tag, e.g. `git tag v0.1.0 && git push --tags`.
+#
+# SEI has no package registry — icon consumers (flutter-sei, dart-sei,
+# sei-swift) sync icons by copying files from this repo, not by installing
+# a published package. "Releasing" SEI means packaging icons/{outline,filled}
+# as a versioned zip attached to a GitHub Release, with that version's
+# CHANGELOG.md section as the release body, so downstream packages have a
+# stable, citable snapshot to sync from.
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  github-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # required to create a release
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Package icons
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          zip -r "sei-icons-${VERSION}.zip" icons/
+
+      - name: Extract this version's changelog section
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          awk -v ver="$VERSION" '
+            BEGIN { found=0 }
+            /^## \[/ {
+              if (found) exit
+              if ($0 ~ "\\[" ver "\\]") { found=1; next }
+            }
+            /^\[.*\]:/ { if (found) exit }
+            found { print }
+          ' CHANGELOG.md | grep -v '^---$' > release_notes.md
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          body_path: release_notes.md
+          generate_release_notes: false
+          files: sei-icons-*.zip

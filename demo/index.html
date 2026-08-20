@@ -1,71 +1,370 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sxnnyside Eloquent Icons</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO Meta Tags -->
+<title>Sxnnyside Eloquent Icons (SEI) — Curated Vector Icon System</title>
+<meta name="title" content="Sxnnyside Eloquent Icons (SEI) — Curated Vector Icon System">
+<meta name="description" content="A curated, platform-agnostic SVG icon system built on a 24x24 pixel grid for clarity, visual consistency, and cross-platform UI development in Web, Flutter, and Swift.">
+<meta name="keywords" content="sxnnyside eloquent icons, sei, svg icons, open source icons, vector icons, ui icons, icon system, flutter icons, swift icons, design system, web icons, minimal icons, developer icons">
+<meta name="author" content="Sxnnyside Project">
+<meta name="creator" content="Sxnnyside Project">
+<meta name="publisher" content="Sxnnyside Project">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<link rel="canonical" href="https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/">
+
+<!-- Open Graph / Facebook / Discord / LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/">
+<meta property="og:site_name" content="Sxnnyside Eloquent Icons">
+<meta property="og:title" content="Sxnnyside Eloquent Icons (SEI) — Curated Vector Icon System">
+<meta property="og:description" content="A curated, platform-agnostic SVG icon system built on a 24x24 pixel grid for clarity, consistency, and long-term UI evolution.">
+<meta property="og:image" content="https://raw.githubusercontent.com/sxnnyside-project/sxnnyside-eloquent-icons/main/assets/Sxnnyside%20Eloquent%20Icons.png">
+<meta property="og:image:secure_url" content="https://raw.githubusercontent.com/sxnnyside-project/sxnnyside-eloquent-icons/main/assets/Sxnnyside%20Eloquent%20Icons.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sxnnyside Eloquent Icons Banner Preview">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/">
+<meta name="twitter:site" content="@sxnnyside">
+<meta name="twitter:creator" content="@sxnnyside">
+<meta name="twitter:title" content="Sxnnyside Eloquent Icons (SEI) — Curated Vector Icon System">
+<meta name="twitter:description" content="A curated, platform-agnostic SVG icon system built on a 24x24 pixel grid for clarity, consistency, and long-term UI evolution.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/sxnnyside-project/sxnnyside-eloquent-icons/main/assets/Sxnnyside%20Eloquent%20Icons.png">
+<meta name="twitter:image:alt" content="Sxnnyside Eloquent Icons Banner Preview">
+
+<!-- Mobile & Theme Styling -->
+<meta name="application-name" content="Sxnnyside Eloquent Icons">
+<meta name="apple-mobile-web-app-title" content="SEI Icons">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d0615">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf8fd">
+
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23b575ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/sxnnyside-project/sxnnyside-eloquent-icons/main/assets/Sxnnyside%20Eloquent%20Icons.png">
+
+<!-- Preconnect & External Scripts -->
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
+<!-- Structured Data (JSON-LD) for Search Engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/#website",
+      "url": "https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/",
+      "name": "Sxnnyside Eloquent Icons",
+      "alternateName": "SEI",
+      "description": "A curated, platform-agnostic SVG icon system built for clarity, visual consistency, and long-term evolution.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sxnnyside Project",
+        "url": "https://github.com/sxnnyside-project"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/#webapp",
+      "url": "https://sxnnyside-project.github.io/sxnnyside-eloquent-icons/",
+      "name": "Sxnnyside Eloquent Icons Explorer",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript and HTML5 support",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "license": "https://opensource.org/licenses/MIT",
+      "description": "Interactive vector icon explorer, instant search, and SVG copier for Sxnnyside Eloquent Icons."
+    }
+  ]
+}
+</script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0d0615;
+  --bg-elevated: #150c22;
+  --surface: #1a1027;
+  --surface-hover: #241536;
+  --border: rgba(200, 150, 255, 0.12);
+  --border-strong: rgba(200, 150, 255, 0.32);
+  --text: #f3eefc;
+  --text-muted: #a996c4;
+  --text-faint: #6f6086;
+  --accent: #b575ff;
+  --accent-soft: rgba(181, 117, 255, 0.14);
+  --icon-color: #e9ddff;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+:root[data-theme="light"] {
+  --bg: #faf8fd;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #f3edfc;
+  --border: rgba(120, 70, 190, 0.14);
+  --border-strong: rgba(120, 70, 190, 0.35);
+  --text: #251a33;
+  --text-muted: #6b5c85;
+  --text-faint: #a396b8;
+  --accent: #8b3ff0;
+  --accent-soft: rgba(139, 63, 240, 0.1);
+  --icon-color: #3a2657;
+  --shadow: 0 8px 24px rgba(80, 40, 140, 0.08);
+}
+
+html, body { width: 100%; min-height: 100%; background: var(--bg); color: var(--text); }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif; -webkit-font-smoothing: antialiased; }
+
+.glow {
+  position: fixed; top: -10%; left: -8%; width: 480px; height: 480px;
+  background: radial-gradient(circle, rgba(181, 117, 255, 0.16) 0%, transparent 70%);
+  pointer-events: none; z-index: 0; transition: opacity 0.3s ease;
+}
+:root[data-theme="light"] .glow { opacity: 0.5; }
+
+.page { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 56px 24px 80px; }
+
+.header { margin-bottom: 40px; }
+.eyebrow { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+.title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.title {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem); font-weight: 600; letter-spacing: -0.02em;
+  background: linear-gradient(90deg, var(--icon-color) 0%, var(--accent) 55%, var(--icon-color) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.subtitle { margin-top: 8px; max-width: 52ch; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; }
+.count-pill { flex-shrink: 0; font-size: 0.8rem; font-weight: 600; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; white-space: nowrap; }
+.count-pill strong { color: var(--text); }
+
+.toolbar {
+  position: sticky; top: 16px; z-index: 5; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 14px; padding: 10px;
+  margin-bottom: 32px; box-shadow: var(--shadow);
+}
+.search-wrap { position: relative; flex: 1 1 220px; min-width: 160px; }
+.search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-faint); pointer-events: none; }
+#search {
+  width: 100%; height: 40px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  color: var(--text); font-size: 0.9rem; padding: 0 14px 0 36px; outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+#search::placeholder { color: var(--text-faint); }
+#search:focus { border-color: var(--border-strong); background: var(--surface-hover); }
+
+/* Outline/Filled segmented control — plain radio+label, :checked drives the
+   active state in pure CSS. htmx reads the checked radio's value directly,
+   no JS needed to track which one is active. */
+.seg { display: flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 3px; gap: 2px; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg label {
+  color: var(--text-muted); font-size: 0.82rem; font-weight: 600;
+  padding: 7px 14px; border-radius: 7px; cursor: pointer; transition: background 0.15s ease, color 0.15s ease;
+}
+.seg input:checked + label { background: var(--accent-soft); color: var(--accent); }
+.seg input:focus-visible + label { outline: 2px solid var(--border-strong); outline-offset: 1px; }
+
+.icon-btn {
+  width: 40px; height: 40px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px; color: var(--text-muted);
+  cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease;
+}
+.icon-btn:hover { border-color: var(--border-strong); color: var(--text); }
+.icon-btn svg { width: 18px; height: 18px; }
+.icon-btn .moon { display: none; }
+:root[data-theme="light"] .icon-btn .sun { display: none; }
+:root[data-theme="light"] .icon-btn .moon { display: block; }
+
+.icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; }
+
+.card {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; height: 92px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px; cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease; position: relative; font: inherit; color: inherit;
+}
+.card:hover { border-color: var(--border-strong); background: var(--surface-hover); transform: translateY(-1px); }
+.card:active { transform: translateY(0); }
+
+/* Real inline <svg>, rendered server-side by Bun from the actual files in
+   icons/outline and icons/filled on every request — nothing duplicated
+   or generated ahead of time. currentColor genuinely inherits from this
+   element, giving true theming with no recolor hack. */
+.card .icon { width: 24px; height: 24px; color: var(--icon-color); flex-shrink: 0; }
+
+.card .label { font-size: 0.66rem; color: var(--text-faint); text-align: center; padding: 0 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+
+.empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-faint); font-size: 0.9rem; }
+
+.htmx-indicator { display: none; }
+.htmx-request .htmx-indicator { display: block; }
+.htmx-request.icon-grid { opacity: 0.6; transition: opacity 0.15s ease; }
+
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translate(-50%, 12px);
+  background: var(--surface); border: 1px solid var(--border-strong); color: var(--text); font-size: 0.85rem; font-weight: 500;
+  padding: 10px 18px; border-radius: 10px; box-shadow: var(--shadow); opacity: 0; pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease; z-index: 10; display: flex; align-items: center; gap: 8px;
+}
+.toast svg { width: 15px; height: 15px; color: #6adf9b; flex-shrink: 0; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+.footer {
+  margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border); display: flex; justify-content: space-between;
+  align-items: center; gap: 16px; flex-wrap: wrap; color: var(--text-faint); font-size: 0.8rem;
+}
+.footer a { color: var(--text-muted); text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+.footer .links { display: flex; gap: 18px; }
+
+@media (max-width: 640px) {
+  .page { padding: 32px 16px 60px; }
+  .icon-grid { grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 8px; }
+  .card { height: 78px; }
+  .toolbar { top: 8px; }
+}
+</style>
 </head>
 <body>
-    <!-- Subtle blur overlay -->
-    <div class="blur-overlay"></div>
+<div class="glow" aria-hidden="true"></div>
 
-    <!-- Main content -->
-    <div class="content">
+<div class="page">
+  <header class="header">
+    <div class="eyebrow">Sxnnyside Project</div>
+    <div class="title-row">
+      <div>
         <h1 class="title">Sxnnyside Eloquent Icons</h1>
-        
-        <div class="icon-grid">
-            <!-- Outline icons -->
-            <div class="icon-cell"><img src="../icons/outline/account.svg" alt="account"></div>
-            <div class="icon-cell"><img src="../icons/outline/add.svg" alt="add"></div>
-            <div class="icon-cell"><img src="../icons/outline/alert.svg" alt="alert"></div>
-            <div class="icon-cell"><img src="../icons/outline/analytics.svg" alt="analytics"></div>
-            <div class="icon-cell"><img src="../icons/outline/api.svg" alt="api"></div>
-            <div class="icon-cell"><img src="../icons/outline/app.svg" alt="app"></div>
-            <div class="icon-cell"><img src="../icons/outline/apps.svg" alt="apps"></div>
-            <div class="icon-cell"><img src="../icons/outline/back.svg" alt="back"></div>
-            <div class="icon-cell"><img src="../icons/outline/backup.svg" alt="backup"></div>
-            <div class="icon-cell"><img src="../icons/outline/badge.svg" alt="badge"></div>
-            <div class="icon-cell"><img src="../icons/outline/brackets.svg" alt="brackets"></div>
-            <div class="icon-cell"><img src="../icons/outline/browser.svg" alt="browser"></div>
-            <div class="icon-cell"><img src="../icons/outline/bug.svg" alt="bug"></div>
-            <div class="icon-cell"><img src="../icons/outline/build.svg" alt="build"></div>
-            <div class="icon-cell"><img src="../icons/outline/calendar.svg" alt="calendar"></div>
-            <div class="icon-cell"><img src="../icons/outline/chart-bar.svg" alt="chart-bar"></div>
-            <div class="icon-cell"><img src="../icons/outline/chart-line.svg" alt="chart-line"></div>
-            <div class="icon-cell"><img src="../icons/outline/chart-pie.svg" alt="chart-pie"></div>
-            <div class="icon-cell"><img src="../icons/outline/check.svg" alt="check"></div>
-            <div class="icon-cell"><img src="../icons/outline/checklist.svg" alt="checklist"></div>
-            <div class="icon-cell"><img src="../icons/outline/clock.svg" alt="clock"></div>
-            <div class="icon-cell"><img src="../icons/outline/close.svg" alt="close"></div>
-            <div class="icon-cell"><img src="../icons/outline/cloud.svg" alt="cloud"></div>
-            <div class="icon-cell"><img src="../icons/outline/code.svg" alt="code"></div>
-            <div class="icon-cell"><img src="../icons/outline/connection.svg" alt="connection"></div>
-            <div class="icon-cell"><img src="../icons/outline/cpu.svg" alt="cpu"></div>
-            <div class="icon-cell"><img src="../icons/outline/credit-card.svg" alt="credit-card"></div>
-            <div class="icon-cell"><img src="../icons/outline/crown.svg" alt="crown"></div>
-            <div class="icon-cell"><img src="../icons/outline/dashboard.svg" alt="dashboard"></div>
-            <div class="icon-cell"><img src="../icons/outline/database.svg" alt="database"></div>
-            <div class="icon-cell"><img src="../icons/outline/debug.svg" alt="debug"></div>
-            <div class="icon-cell"><img src="../icons/outline/deploy.svg" alt="deploy"></div>
-            <div class="icon-cell"><img src="../icons/outline/discount.svg" alt="discount"></div>
-            <div class="icon-cell"><img src="../icons/outline/download.svg" alt="download"></div>
-            <div class="icon-cell"><img src="../icons/outline/edit.svg" alt="edit"></div>
-            <div class="icon-cell"><img src="../icons/outline/error.svg" alt="error"></div>
-            <div class="icon-cell"><img src="../icons/outline/exploit.svg" alt="exploit"></div>
-            <div class="icon-cell"><img src="../icons/outline/file.svg" alt="file"></div>
-            <div class="icon-cell"><img src="../icons/outline/filter.svg" alt="filter"></div>
-            <div class="icon-cell"><img src="../icons/outline/fingerprint.svg" alt="fingerprint"></div>
-            <div class="icon-cell"><img src="../icons/outline/firewall.svg" alt="firewall"></div>
-            <div class="icon-cell"><img src="../icons/outline/flame.svg" alt="flame"></div>
-            <div class="icon-cell"><img src="../icons/outline/focus.svg" alt="focus"></div>
-            <div class="icon-cell"><img src="../icons/outline/folder.svg" alt="folder"></div>
-            <div class="icon-cell"><img src="../icons/outline/function.svg" alt="function"></div>
-            <div class="icon-cell"><img src="../icons/outline/gamepad.svg" alt="gamepad"></div>
-            <div class="icon-cell"><img src="../icons/outline/globe.svg" alt="globe"></div>
-            <div class="icon-cell"><img src="../icons/outline/heart.svg" alt="heart"></div>
-            <div class="icon-cell"><img src="../icons/outline/help.svg" alt="help"></div>
-        </div>
+        <p class="subtitle">A curated, platform-agnostic icon system designed for clarity, consistency, and long-term evolution. Click any icon to copy its SVG.</p>
+      </div>
+      <div class="count-pill"><strong id="visibleCount">0</strong> icons</div>
     </div>
+  </header>
+
+  <!-- htmx owns loading, search, and the outline/filled toggle: #grid
+       fetches /cards (real server-rendered HTML fragments, read live off
+       disk) on page load and whenever the search box or style radios
+       change. No client-side render/filter logic needed for any of this. -->
+  <form id="controls" class="toolbar" onsubmit="return false">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input id="search" name="q" type="text" placeholder="Search icons&hellip;" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="seg" role="radiogroup" aria-label="Icon style">
+      <input type="radio" name="style" value="outline" id="styleOutline" checked>
+      <label for="styleOutline">Outline</label>
+      <input type="radio" name="style" value="filled" id="styleFilled">
+      <label for="styleFilled">Filled</label>
+    </div>
+    <button type="button" class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v1.5M12 19.5V21M4.9 4.9l1.1 1.1M18 18l1.1 1.1M3 12h1.5M19.5 12H21M4.9 19.1l1.1-1.1M18 6l1.1-1.1"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5a8 8 0 1 1-9.5-9.5 6.5 6.5 0 0 0 9.5 9.5z"/></svg>
+    </button>
+  </form>
+
+  <main>
+    <div
+      class="icon-grid"
+      id="grid"
+      hx-get="/cards"
+      hx-include="#controls"
+      hx-trigger="load, input changed delay:200ms from:#search, change from:[name='style']"
+      hx-swap="innerHTML"
+    ></div>
+  </main>
+
+  <footer class="footer">
+    <span>Open-source &middot; MIT-style license &middot; Sxnnyside Project</span>
+    <div class="links">
+      <a href="../docs/manifesto.md">Manifesto</a>
+      <a href="../docs/rules.md">Visual rules</a>
+      <a href="../docs/icon-list.md">Full list</a>
+    </div>
+  </footer>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+  <span id="toastText">Copied</span>
+</div>
+
+<script>
+// Everything below is plain JS specifically because it's client-only state
+// with nothing for a server round-trip to add: theme is a local preference
+// (no server involvement makes sense), and clipboard access is a browser
+// API htmx has no opinion on. htmx owns all the data loading above.
+(function () {
+  var root = document.documentElement;
+  var stored = localStorage.getItem('sei-theme');
+  var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  var theme = stored || (prefersLight ? 'light' : 'dark');
+  if (theme === 'light') root.setAttribute('data-theme', 'light');
+
+  document.getElementById('themeToggle').addEventListener('click', function () {
+    var isLight = root.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      root.removeAttribute('data-theme');
+      localStorage.setItem('sei-theme', 'dark');
+    } else {
+      root.setAttribute('data-theme', 'light');
+      localStorage.setItem('sei-theme', 'light');
+    }
+  });
+
+  var toast = document.getElementById('toast');
+  var toastText = document.getElementById('toastText');
+  var toastTimer = null;
+
+  function showToast(text) {
+    toastText.textContent = text;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toast.classList.remove('show');
+    }, 1800);
+  }
+
+  function standaloneSvg(styleName, innerMarkup) {
+    var attrs = styleName === 'outline'
+      ? 'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"'
+      : 'fill="currentColor"';
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ' + attrs + '>' + innerMarkup + '</svg>';
+  }
+
+  // Delegated click handler: #grid's contents are swapped by htmx, so we
+  // listen on the container (which htmx never replaces) instead of on
+  // individual cards.
+  document.getElementById('grid').addEventListener('click', function (e) {
+    var card = e.target.closest('.card');
+    if (!card) return;
+    var svg = card.querySelector('svg.icon');
+    var markup = standaloneSvg(card.dataset.style, svg.innerHTML.trim());
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(markup).then(function () {
+        showToast('Copied "' + card.dataset.name + '"');
+      }).catch(function () {
+        showToast('Could not copy — clipboard blocked');
+      });
+    } else {
+      showToast('Clipboard unavailable in this browser');
+    }
+  });
+})();
+</script>
 </body>
 </html>

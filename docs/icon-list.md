@@ -17,14 +17,20 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | api | ![](../icons/outline/api.svg) | — |
 | app | ![](../icons/outline/app.svg) | — |
 | apps | ![](../icons/outline/apps.svg) | — |
+| arrow-right | ![](../icons/outline/arrow-right.svg) | — |
 | back | ![](../icons/outline/back.svg) | — |
 | backup | ![](../icons/outline/backup.svg) | — |
 | badge | ![](../icons/outline/badge.svg) | ![](../icons/filled/badge.svg) |
+| book | ![](../icons/outline/book.svg) | — |
+| box | ![](../icons/outline/box.svg) | — |
 | brackets | ![](../icons/outline/brackets.svg) | — |
 | browser | ![](../icons/outline/browser.svg) | — |
 | bug | ![](../icons/outline/bug.svg) | — |
 | build | ![](../icons/outline/build.svg) | — |
+| bulb | ![](../icons/outline/bulb.svg) | — |
 | calendar | ![](../icons/outline/calendar.svg) | — |
+| compass | ![](../icons/outline/compass.svg) | — |
+| computer | ![](../icons/outline/computer.svg) | — |
 | chart-bar | ![](../icons/outline/chart-bar.svg) | — |
 | chart-line | ![](../icons/outline/chart-line.svg) | — |
 | chart-pie | ![](../icons/outline/chart-pie.svg) | — |
@@ -42,7 +48,9 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | database | ![](../icons/outline/database.svg) | — |
 | debug | ![](../icons/outline/debug.svg) | — |
 | deploy | ![](../icons/outline/deploy.svg) | — |
+| device | ![](../icons/outline/device.svg) | — |
 | discount | ![](../icons/outline/discount.svg) | — |
+| down-small | ![](../icons/outline/down-small.svg) | — |
 | download | ![](../icons/outline/download.svg) | — |
 | edit | ![](../icons/outline/edit.svg) | — |
 | error | ![](../icons/outline/error.svg) | ![](../icons/filled/error.svg) |
@@ -75,6 +83,7 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | log | ![](../icons/outline/log.svg) | — |
 | login | ![](../icons/outline/login.svg) | — |
 | logout | ![](../icons/outline/logout.svg) | — |
+| mail | ![](../icons/outline/mail.svg) | — |
 | menu | ![](../icons/outline/menu.svg) | — |
 | message | ![](../icons/outline/message.svg) | ![](../icons/filled/message.svg) |
 | money | ![](../icons/outline/money.svg) | — |
@@ -83,18 +92,24 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | mute | ![](../icons/outline/mute.svg) | — |
 | notification | ![](../icons/outline/notification.svg) | ![](../icons/filled/notification.svg) |
 | offline | ![](../icons/outline/offline.svg) | — |
+| palette | ![](../icons/outline/palette.svg) | — |
 | package | ![](../icons/outline/package.svg) | — |
+| pause | ![](../icons/outline/pause.svg) | — |
+| planet | ![](../icons/outline/planet.svg) | — |
+| play-circle | ![](../icons/outline/play-circle.svg) | — |
 | plugin | ![](../icons/outline/plugin.svg) | — |
 | power | ![](../icons/outline/power.svg) | — |
 | pricing | ![](../icons/outline/pricing.svg) | — |
 | profile | ![](../icons/outline/profile.svg) | — |
 | progress | ![](../icons/outline/progress.svg) | — |
+| puzzle | ![](../icons/outline/puzzle.svg) | — |
 | qr | ![](../icons/outline/qr.svg) | — |
 | receipt | ![](../icons/outline/receipt.svg) | — |
 | refresh | ![](../icons/outline/refresh.svg) | — |
 | register | ![](../icons/outline/register.svg) | — |
 | remove | ![](../icons/outline/remove.svg) | — |
 | restore | ![](../icons/outline/restore.svg) | — |
+| rotate | ![](../icons/outline/rotate.svg) | — |
 | router | ![](../icons/outline/router.svg) | — |
 | scan | ![](../icons/outline/scan.svg) | — |
 | search | ![](../icons/outline/search.svg) | — |
@@ -102,11 +117,13 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | settings | ![](../icons/outline/settings.svg) | — |
 | share | ![](../icons/outline/share.svg) | — |
 | shield | ![](../icons/outline/shield.svg) | ![](../icons/filled/shield.svg) |
+| shopping-bag | ![](../icons/outline/shopping-bag.svg) | — |
 | skull | ![](../icons/outline/skull.svg) | — |
 | sort | ![](../icons/outline/sort.svg) | — |
 | sound | ![](../icons/outline/sound.svg) | ![](../icons/filled/sound.svg) |
 | spark | ![](../icons/outline/spark.svg) | — |
 | star | ![](../icons/outline/star.svg) | ![](../icons/filled/star.svg) |
+| store | ![](../icons/outline/store.svg) | — |
 | subscription | ![](../icons/outline/subscription.svg) | — |
 | success | ![](../icons/outline/success.svg) | ![](../icons/filled/success.svg) |
 | sync | ![](../icons/outline/sync.svg) | — |
@@ -115,6 +132,10 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | team | ![](../icons/outline/team.svg) | — |
 | terminal | ![](../icons/outline/terminal.svg) | — |
 | timer | ![](../icons/outline/timer.svg) | — |
+| tool | ![](../icons/outline/tool.svg) | — |
+| transfer | ![](../icons/outline/transfer.svg) | — |
+| translate | ![](../icons/outline/translate.svg) | — |
+| tv | ![](../icons/outline/tv.svg) | — |
 | uninstall | ![](../icons/outline/uninstall.svg) | — |
 | unlock | ![](../icons/outline/unlock.svg) | — |
 | update | ![](../icons/outline/update.svg) | — |
@@ -128,6 +149,7 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 | visibility-off | ![](../icons/outline/visibility-off.svg) | — |
 | wallet | ![](../icons/outline/wallet.svg) | — |
 | warning | ![](../icons/outline/warning.svg) | ![](../icons/filled/warning.svg) |
+| watch | ![](../icons/outline/watch.svg) | — |
 | wifi | ![](../icons/outline/wifi.svg) | ![](../icons/filled/wifi.svg) |
 | window | ![](../icons/outline/window.svg) | — |
 
@@ -137,8 +159,8 @@ SEI grows intentionally: icons are added when they are needed, designed, reviewe
 
 | Category | Count |
 | -------- | ----- |
-| **Total Icons** | 120 |
-| **Outline** | 120 |
+| **Total Icons** | 142 |
+| **Outline** | 142 |
 | **Filled** | 23 |
 
 ---

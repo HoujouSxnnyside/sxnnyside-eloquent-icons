@@ -89,6 +89,36 @@ Maintainers may request changes or close pull requests that do not align with th
 
 ---
 
+## Commit Style
+
+This project uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Every commit message follows:
+
+```
+<type>: <description>
+
+[optional body]
+[optional footer]
+```
+
+| Type       | Use for                                   |
+|------------|--------------------------------------------|
+| `feat`     | A new icon or new demo/tooling functionality |
+| `fix`      | Correcting a broken or inconsistent icon  |
+| `docs`     | Documentation only                        |
+| `style`    | Formatting, whitespace — no visual change |
+| `refactor` | Restructuring without changing icon output |
+| `chore`    | Build process, tooling, dependencies      |
+
+Examples:
+
+```
+feat: add "rotate" icon
+fix: correct optical size of wifi icon
+docs: update icon list with new additions
+```
+
+---
+
 ## Final Notes
 
 SEI grows intentionally, not aggressively.
